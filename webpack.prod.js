@@ -1,0 +1,3 @@
+//this will be where to optimize/minify/gzip etc... your code for production server...
+
+//left blank so you can focus on learning basic React and react-router (start at reactjs.org!!!!)

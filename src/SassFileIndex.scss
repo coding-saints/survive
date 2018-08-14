@@ -1,0 +1,58 @@
+* {
+    box-sizing: border-box;
+    
+}
+*::before, *::after {
+    box-sizing: inherit;
+}
+body {
+    margin: 0;
+    padding: 0;
+    font: {
+        size: 15px //for use of REM's
+    }
+}
+img {
+    max-width: 100%;
+}
+
+// THIS should be seperated into css files per component!
+
+/*ImageOverlay*/
+.overlay-container {
+  position: relative;
+  display: inline-block;
+    width: 100%;
+    height: 100vh;
+   .background-image {
+       display: flex;
+       align-items: center;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        width: 14rem; //number of pixels set body times this number = 15x4
+        height: 14rem;
+        background: mistyrose;
+        a,button {
+            width: 50%;
+            height: 3rem;
+           margin: 0 auto;
+            background: linear-gradient(red, green);
+            border: 0;
+            color: #fff;
+        }
+    }
+}
+.layout-container {
+    header {
+
+    }
+    section {
+        p {
+
+        }
+    }
+    footer {
+
+    }
+}
